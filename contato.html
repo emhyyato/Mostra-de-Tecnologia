@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Daily Series</title>
+  <link rel="stylesheet" href="estilos.css" />
+  <link rel="icon" href="imagens/icondaily.ico">
+
+</head>
+
+<body>
+  <!--Cabeçalho-->
+  <header>
+    <div id="hearder_titulo" class="center">
+    </div>
+  </header>
+
+  <!--Menu-->
+  <input type="checkbox" id="bt_menu">
+  <label for="bt_menu">&#9776;</label>
+
+  <nav class="menu">
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="#">Ditadura Militar</a></li>
+      <li><a href="idademedia.html">Idade Média</a></li>
+      <li><a href="#">Idade Moderna</a>
+        <ul class="submenu">
+          <li><a href="#">Iluminismo</a>
+          <li><a href="absolutismo.html">Absolutismo</a>
+          <li><a href="#">Reforma Protestante</a>
+          <li><a href="#">Renascimento cultural</a>
+        </ul>
+      </li>
+      <li><a href="#">História Brasil</a>
+        <ul class="submenu">
+          <li><a href="#">Colonialismo</a>
+          <li><a href="#">Reinados</a>
+          <li><a href="imperio.html">Brasil Império</a>
+          <li><a href="#">República</a>
+        </ul>
+      </li>
+      <li><a href="#">Revoluções</a>
+        <ul class="submenu">
+          <li><a href="industrial.html">Revolução Industrial</a>
+          <li><a href="revoluçãofrancesa.html">Revolução Francesa</a>
+          <li><a href="russia.html">Revolução Russa</a>
+        </ul>
+      <li><a href="#">Guerras</a>
+        <ul class="submenu">
+          <li><a href="primeiraguerramundial.html">1º Guerra Mundial</a>
+          <li><a href="segundaguerramundial.html">2º Guerra Mundial</a>
+          <li><a href="guerrafria.html">Guerra fria</a>
+        </ul>
+      </li>
+      <li><a href="projeto.html">Projeto</a></li>
+    </ul>
+  </nav>
+
+  <!--Conteudo e textos-->
+  <main id="main">
+    <section id="content">
+      <div id="container">
+        <h1 id="titulo">CONTATOS</h1>
+        <br><br>
+        <p id="text">Olá usuário, o que achou do nosso site? O conteúdo atendeu às suas expectativas? O que
+          poderia melhorar? Entre em contato conosco, nós da equipe Daily Series agradecemos o feedback.
+        </p>
+        <br>
+        <div class="center">
+          <div class="forms">
+            <form action="https://api.staticforms.xyz/submit" method="post">
+
+              <h2>Contato</h2>
+              <br>
+              <p id="textContato">Sugestões?<br>
+                dailyseries2022@gmail.com </p>
+              <br>
+
+              <input type="hidden" name="accessKey" value="d6d33f9d-6d1b-46ae-989e-bda06893c4d8">
+              <input type="hidden" name="redirectTo" value="https://example.com/contact/success">
+
+              <label for="imputNome">Nome:</label><br>
+              <input type="text" id="imputNome" required maxlength="25" minlength="2">
+              <span></span>
+              <br><br>
+
+              <label for="imputEmail">E-mail:</label><br>
+              <input type="email" id="imputEmail" required maxlength="50">
+              <span></span>
+              <br><br>
+
+              <label for="textAreaMensagem">Mensagem:</label><br>
+              <textarea name="message" id="textAreaMensagem" required maxlength="100"></textarea>
+              <span></span>
+              <br>
+              <button>Enviar</button>
+            </form>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!--Rodapé-->
+  <footer>
+    <div class="menu_footer">
+      <ul>
+        <li><a class="link-1" href="index.html">Home </a></li>
+        <li><a href="projeto.html">Projeto</a></li>
+        <li><a href="contato.html">Contato</a></li>
+      </ul>
+    </div>
+    <br>
+    <div class="left">
+      <div class="row">
+        <div class="boxz">
+          <a href="mailto:dailyseries2022@gmail.com" title=""><img id="imagem_footer" src="imagens/gmail.png"
+              aligin="top"></a>
+        </div>
+        <div class="boxz">
+          <a href="https://github.com/emhyyato/Mostra-Pibic"><img id="imagem_footer" src="imagens/github.png"></a>
+        </div>
+        <div class="boxz">
+          <a href="https://www.instagram.com/p/Cgh_kC-JNv3/?utm_source=ig_web_copy_link"><img id="imagem_footer"
+              src="imagens/instagram.png"></a>
+        </div>
+      </div>
+      <p id="text_footer">Daily Series &copy; 2022</p>
+    </div>
+  </footer>
+
+</body>
+</html>
